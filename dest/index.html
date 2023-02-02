@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Treezotje</title>
+<link rel="stylesheet" href="./assets/swiper/swiper-bundle.min.css">
+<link rel="stylesheet" href="./styles/styles.css">
+<script defer src="./assets/swiper/swiper-bundle.min.js"></script>
+<script defer src="./scripts/index.js"></script>
+  </head>
+  <body>
+    <div class="fullScreen">
+      <header class="header" id="main-header">
+  <div class="site-container">
+    <div class="headerInner">
+      <div class="headerItem headerItem-tray">
+        <button class="tray" id="menu-tray">
+          <span class="tray_inner">
+            <span class="tray_line"></span>
+          </span>
+        </button>
+      </div>
+      <div class="headerItem headerItem-logo">
+        <a class="logo" href="#">
+          <img
+            src="./img/logo.png"
+            alt="Treezotje"
+            srcset="./img/logo@2x.png 2x"
+          />
+        </a>
+      </div>
+      <div class="headerItem headerItem-nav">
+        <nav class="navigation">
+          <ul class="menu">
+            <li class="menuItem">
+              <a class="menuLink menu-click" href="#Carte" data-text="À la carte">
+                <span class="menuLink_inner">À la carte</span>
+              </a>
+            </li>
+            <li class="menuItem">
+              <a class="menuLink menu-click" href="#Wijnkaart" data-text="Wijnkaart">
+                <span class="menuLink_inner">Wijnkaart</span>
+              </a>
+            </li>
+            <li class="menuItem">
+              <a class="menuLink menu-click" href="#Lunchmenu" data-text="Lunchmenu">
+                <span class="menuLink_inner">Lunchmenu</span>
+              </a>
+            </li>
+            <li class="menuItem">
+              <a class="menuLink menu-click" href="#Contact" data-text="Contact">
+                <span class="menuLink_inner">Contact</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="headerItem headerItem-phone">
+        <a class="phoneLink" href="tel:+3292825725">
+          <svg>
+            <use xlink:href="./icons/sprite.svg#phone"></use>
+          </svg>
+          <span class="phoneLink_text">+32 9 282 57 25</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="siteContent">
+        <main>
+          <section>
+            <div class="mainScreen">
+              <div class="site-container">
+                <p class="mainScreenText">OPEN EVERYDAY 6AM - 9PM</p>
+                <h1 class="mainScreenTitle">
+                  A bad day with lunch is better than a good day without it.
+                </h1>
+                <div class="mainScreenBottom">
+                  <div class="lineSB">
+                    <div class="custowWrapper animated">
+                      <button class="customBtn" data-pop-up="p-1" data-popup-open aria-haspopup="true">
+                        <span class="customBtnInner">Reserve a table</span>
+                      </button>
+                    </div>
+                    <div class="socialBox">
+                      <ul class="social">
+                        <li class="socialItem">
+                          <a class="socialLink" href="#">
+                            Fb
+                          </a>
+                        </li>
+                        <li class="socialItem">
+                          <a class="socialLink" href="#">
+                            Ig
+                          </a>
+                        </li>
+                        <li class="socialItem">
+                          <a class="socialLink" href="#">
+                            Tw
+                          </a>
+                        </li>
+                        <li class="socialItem">
+                          <a class="socialLink" href="#">
+                            Yt
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="section" id="Carte">
+            <div class="site-container">
+              <h2 class="visually-hidden">À la carte</h2>
+              <div class="common">
+                <div class="commonItem">
+                    <ul class="carte">
+                      <li class="carteItem">
+                        <strong class="carteTitle">
+                          Woensdag 12/01
+                        </strong>
+                        <div class="cartePoint">
+                          <p class="carteText">
+                            Salade met Serrano
+                          </p>
+                          <span class="dot"></span>
+                          <p class="carteText">
+                            Steak Tartaar
+                          </p>
+                        </div>
+                      </li>
+                      <li class="carteItem">
+                        <strong class="carteTitle">
+                          Donderdag 13/01
+                        </strong>
+                        <div class="cartePoint">
+                          <p class="carteText">
+                            Toast Roquefort
+                          </p>
+                          <span class="dot"></span>
+                          <p class="carteText">
+                            Penne met Kip en Prei
+                          </p>
+                        </div>
+                      </li>
+                      <li class="carteItem">
+                        <strong class="carteTitle">
+                          Vrijdag 14/01
+                        </strong>
+                        <div class="cartePoint">
+                          <p class="carteText">
+                            Verrassing van de Chef
+                          </p>
+                          <span class="dot"></span>
+                          <p class="carteText">
+                            Penne met Kip en Prei
+                          </p>
+                        </div>
+                      </li>
+                      <li class="carteItem">
+                        <strong class="carteTitle">
+                          Vrijdag 15/01
+                        </strong>
+                        <div class="cartePoint">
+                          <p class="carteText">
+                            Verrassing van de Chef
+                          </p>
+                          <span class="dot"></span>
+                          <p class="carteText">
+                            Penne met Kip en Prei
+                          </p>
+                        </div>
+                      </li>
+                      <li class="carteItem">
+                        <strong class="carteTitle">
+                          Vrijdag 16/01
+                        </strong>
+                        <div class="cartePoint">
+                          <p class="carteText">
+                            Verrassing van de Chef
+                          </p>
+                          <span class="dot"></span>
+                          <p class="carteText">
+                            Penne met Kip en Prei
+                          </p>
+                        </div>
+                      </li>
+                    </ul>
+                </div>
+                <div class="commonItem big">
+                  <div class="picureRel">
+                    <ul class="pictures">
+                      <li class="picturesItem">
+                        <picture><source srcset="./img/image-section-2-1.webp, ./img/image-section-2-1@2x.webp 2x" type="image/webp"><img src="./img/image-section-2-1.jpg" alt="The Oslo Opera House" srcset="./img/image-section-2-1@2x.jpg 2x" /></picture>
+                      </li>
+                      <li class="picturesItem">
+                        <picture><source srcset="./img/image-section-2-2.webp, ./img/image-section-2-2@2x.webp 2x" type="image/webp"><img src="./img/image-section-2-2.jpg" alt="The Oslo Opera House" srcset="./img/image-section-2-2@2x.jpg 2x" /></picture>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="sectionNavy" id="Wijnkaart">
+            <div class="site-container">
+              <h2 class="visually-hidden">Wijnkaart</h2>
+              <div class="swiper swiper-article">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <article class="article">
+                      <div class="articleIcon">
+                        <svg>
+                          <use xlink:href="./icons/sprite.svg#quote"></use>
+                        </svg>
+                      </div>
+                      <h3 class="articleTitle">Goede service, lekker eten, toffe ambiance</h3>
+                      <p class="articleText">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo  dolores et ea rebum. Stet clita kasd gubergren.
+                      </p>
+                      <p class="articleAuthor">
+                        ALAIN HEYNDRICKX
+                      </p>
+                    </article>
+                  </div>
+                  <div class="swiper-slide">
+                    <article class="article">
+                      <div class="articleIcon">
+                        <svg>
+                          <use xlink:href="./icons/sprite.svg#quote"></use>
+                        </svg>
+                      </div>
+                      <h3 class="articleTitle">Goede service, lekker eten, toffe ambiance 2</h3>
+                      <p class="articleText">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo  dolores et ea rebum. Stet clita kasd gubergren.
+                      </p>
+                      <p class="articleAuthor">
+                        ALAIN HEYNDRICKX 2
+                      </p>
+                    </article>
+                  </div>
+                  <div class="swiper-slide">
+                    <article class="article">
+                      <div class="articleIcon">
+                        <svg>
+                          <use xlink:href="./icons/sprite.svg#quote"></use>
+                        </svg>
+                      </div>
+                      <h3 class="articleTitle">Goede service, lekker eten, toffe ambiance 3</h3>
+                      <p class="articleText">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo  dolores et ea rebum. Stet clita kasd gubergren.
+                      </p>
+                      <p class="articleAuthor"> 
+                        ALAIN HEYNDRICKX 3
+                      </p>
+                    </article>
+                  </div>
+                </div>
+                <div class="swiper-arrow swiper-button-prev article-button-prev">
+                  <svg>
+                    <use xlink:href="./icons/sprite.svg#arrow-left"></use>
+                  </svg>
+                </div>
+                <div class="swiper-arrow swiper-button-next article-button-next">
+                  <svg>
+                    <use xlink:href="./icons/sprite.svg#arrow-right"></use>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="section" id="Lunchmenu">
+            <div class="site-container">
+              <h2 class="visually-hidden">Lunchmenu</h2>
+              <ul class="lunch">
+                <li class="lunchItem">
+                  <div class="common common-center">
+                    <div class="commonItem">
+                      <strong class="minTitle decorate">
+                        LEKKER ETEN
+                      </strong>
+                      <p class="lunchText">
+                        Eten gaat niet over indruk maken op mensen. Het gaat erom dat ze zich op hun gemak voelen. Dat is onze filosofie, goed eten in een goede sfeer.
+                      </p>
+                    </div>
+                    <div class="commonItem big">
+                      <div class="image">
+                        <picture><source srcset="./img/image-section-3-1.webp, ./img/image-section-3-1@2x.webp 2x" type="image/webp"><img src="./img/image-section-3-1.jpg" alt="The Oslo Opera House" srcset="./img/image-section-3-1@2x.jpg 2x" /></picture>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="lunchItem">
+                  <div class="common common-center">
+                    <div class="commonItem big">
+                      <div class="image">
+                        <picture><source srcset="./img/image-section-3-2.webp, ./img/image-section-3-2@2x.webp 2x" type="image/webp"><img src="./img/image-section-3-2.jpg" alt="The Oslo Opera House" srcset="./img/image-section-3-2@2x.jpg 2x" /></picture>
+                      </div>
+                    </div>
+                    <div class="commonItem">
+                      <strong class="minTitle decorate">
+                        TOFFE AMBIANCE
+                      </strong>
+                      <p class="lunchText">
+                        Het creëren van de juiste sfeer is zeer belangrijk voor ons. We nemen onze tijd om te zorgen dat alle elementen bijdragen aan de juiste setting.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="lunchItem">
+                  <div class="common common-center">
+                    <div class="commonItem">
+                      <strong class="minTitle decorate">
+                        LEKKERE COCKTAILS
+                      </strong>
+                      <p class="lunchText">
+                        Ons doel is simpel: een gastvrije plek bieden waar u kunt genieten van een onvergetelijke cocktail, een goed gesprek en lekker eten.
+                      </p>
+                    </div>
+                    <div class="commonItem big">
+                      <div class="image">
+                        <picture><source srcset="./img/image-section-3-3.webp, ./img/image-section-3-3@2x.webp 2x" type="image/webp"><img src="./img/image-section-3-3.jpg" alt="The Oslo Opera House" srcset="./img/image-section-3-3@2x.jpg 2x" /></picture>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class="sectionNavy small">
+            <div class="site-container">
+              <div class="topArticle">
+                <div class="topArticle_item part">
+                  <h2 class="minTitle">Sfeerfoto's</h2>
+                  <p class="subText">De beste manier om de sfeer te ervaren is eens langskomen. In tussentijd hebben we hier alvast wat foto’s voor je klaar.</p>
+                </div>
+                <div class="topArticle_item">
+                  <div class="arrowFlex">
+                    <div class="arrowFlex_item">
+                      <div class="swiper-arrow swiper-button-prev image-button-prev">
+                        <svg>
+                          <use xlink:href="./icons/sprite.svg#arrow-left"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="arrowFlex_item">
+                      <div class="swiper-arrow swiper-button-next image-button-next">
+                        <svg>
+                          <use xlink:href="./icons/sprite.svg#arrow-right"></use>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper swiper-image">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="imageSlide">
+                    <div class="imageSlide_inner">
+                      <picture><source srcset="./img/image-section-4-1.webp, ./img/image-section-4-1@2x.webp 2x" type="image/webp"><img src="./img/image-section-4-1.jpg" alt="The Oslo Opera House" srcset="./img/image-section-4-1@2x.jpg 2x" /></picture>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="imageSlide">
+                    <div class="imageSlide_inner">
+                      <picture><source srcset="./img/image-section-4-2.webp, ./img/image-section-4-2@2x.webp 2x" type="image/webp"><img src="./img/image-section-4-2.jpg" alt="The Oslo Opera House" srcset="./img/image-section-4-2@2x.jpg 2x" /></picture>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="imageSlide">
+                    <div class="imageSlide_inner">
+                      <picture><source srcset="./img/image-section-4-3.webp, ./img/image-section-4-3@2x.webp 2x" type="image/webp"><img src="./img/image-section-4-3.jpg" alt="The Oslo Opera House" srcset="./img/image-section-4-3@2x.jpg 2x" /></picture>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="imageSlide">
+                    <div class="imageSlide_inner">
+                      <picture><source srcset="./img/image-section-4-2.webp, ./img/image-section-4-2@2x.webp 2x" type="image/webp"><img src="./img/image-section-4-2.jpg" alt="The Oslo Opera House" srcset="./img/image-section-4-2@2x.jpg 2x" /></picture>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="contacts" id="Contact">
+            <div class="site-container">
+              <div class="common">
+                <div class="commonItem">
+                  <h2 class="minTitle contact-title">Contacts</h2>
+                  <ul class="contactList">
+                    <li class="contactItem">
+                      <a class="contactLine" href="tel:+3292825725">
+                        <div class="contactLine_item round">
+                          <div class="contactIcon">
+                            <svg>
+                              <use xlink:href="./icons/sprite.svg#phone"></use>
+                            </svg>
+                          </div>
+                        </div>
+                        <div class="contactLine_item long">
+                          <p class="contactLabel">
+                            Phone Number
+                          </p>
+                          <p class="contactText">
+                            +32 9 282 57 25
+                          </p>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="contactItem">
+                      <a class="contactLine" href="mailto:info@email.com">
+                        <div class="contactLine_item round">
+                          <div class="contactIcon">
+                            <svg>
+                              <use xlink:href="./icons/sprite.svg#mail"></use>
+                            </svg>
+                          </div>
+                        </div>
+                        <div class="contactLine_item long">
+                          <p class="contactLabel">
+                            Email
+                          </p>
+                          <p class="contactText">
+                            info@email.com
+                          </p>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="contactItem">
+                      <div class="contactLine">
+                        <div class="contactLine_item round">
+                          <div class="contactIcon">
+                            <svg>
+                              <use xlink:href="./icons/sprite.svg#clock"></use>
+                            </svg>
+                          </div>
+                        </div>
+                        <div class="contactLine_item long">
+                          <p class="contactLabel">
+                            Opening Hours
+                          </p>
+                          <p class="contactText">
+                            Everyday from 6 AM - 9 PM
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="contactItem">
+                      <div class="contactLine">
+                        <div class="contactLine_item round">
+                          <div class="contactIcon">
+                            <svg>
+                              <use xlink:href="./icons/sprite.svg#map"></use>
+                            </svg>
+                          </div>
+                        </div>
+                        <div class="contactLine_item long">
+                          <p class="contactLabel">
+                            Map Street
+                          </p>
+                          <p class="contactText">
+                            Jl. Raya Surabaya 2787
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="commonItem big">
+                  <strong class="minTitle form-title">have any questions?</strong>
+                  <form id="formElem">
+                    <div class="form">
+                      <div class="formItem">
+                        <label class="inputLabel" for="name">Name</label>
+                        <input class="inputText" type="text" name="name" id="name" placeholder="Input your name" required>
+                      </div>
+                      <div class="formItem">
+                        <label class="inputLabel" for="email">Email</label>
+                        <input class="inputText" type="email" name="email" id="email" placeholder="Input your email" required>
+                      </div>
+                      <div class="formItem big">
+                        <label class="inputLabel" for="textarea">Speciale Request</label>
+                        <textarea class="textarea" placeholder="Input your special request" id="textarea" name="textarea"></textarea>
+                      </div>
+                      <div class="formItem big">
+                        <div class="custowWrapper">
+                          <button class="customBtn">
+                            <span class="customBtnInner">Send</span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="mapBox">
+                <div class="mapInner">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113613.61404214117!2d3.738318020444833!3d51.00635856995189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c36d8ff5d3ff61%3A0x40099ab2f4d5c80!2z0KHQuNC90YIt0JzQsNGA0YLQtdC90YEt0JvQsNGC0LXQvCwg0JHQtdC70YzQs9C40Y8!5e0!3m2!1sru!2sru!4v1675279308935!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>
+      <footer class="footer">
+  <div class="site-container">
+    <div class="headerInner">
+      <div class="headerItem headerItem-logo">
+        <a class="logo" href="#">
+          <img
+            src="./img/logo-dark.png"
+            alt="Treezotje"
+            srcset="./img/logo-dark@2x.png 2x"
+          />
+        </a>
+      </div>
+      <div class="headerItem headerItem-links">
+        <ul class="social">
+          <li class="socialItem">
+            <a class="socialLink" href="#"> Fb </a>
+          </li>
+          <li class="socialItem">
+            <a class="socialLink" href="#"> Ig </a>
+          </li>
+          <li class="socialItem">
+            <a class="socialLink" href="#"> Tw </a>
+          </li>
+          <li class="socialItem">
+            <a class="socialLink" href="#"> Yt </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="overlay" id="overlay"></div>
+<div class="pop-overlay" data-popup-close-all tabindex="-1" role="dialog">
+  <div class="pop-overlay__inner">
+    <!-- Заказать звонок -->
+    <div class="popUp" role="document" data-popup-element="p-1">
+      <div class="popUp__header">
+        <button
+          class="popUp__cls"
+          data-popup-close
+          type="button"
+          aria-label="Закрыть"
+        >
+          X
+        </button>
+        <strong class="minTitle form-title">PopUp</strong>
+      </div>
+      <div class="popUp__body">
+        <form id="formElem">
+          <div class="form">
+            <div class="formItem">
+              <label class="inputLabel" for="name-2">Name</label>
+              <input class="inputText" type="text" name="name" id="name-2" placeholder="Input your name" required>
+            </div>
+            <div class="formItem">
+              <label class="inputLabel" for="email-2">Email</label>
+              <input class="inputText" type="email" name="email" id="email-2" placeholder="Input your email" required>
+            </div>
+            <div class="formItem big">
+              <label class="inputLabel" for="textarea-2">Speciale Request</label>
+              <textarea class="textarea" placeholder="Input your special request" id="textarea-2" name="textarea"></textarea>
+            </div>
+            <div class="formItem big">
+              <button class="customBtn">
+                <span class="customBtnInner">Send</span>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </body>
+</html>
