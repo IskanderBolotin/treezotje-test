@@ -93,7 +93,8 @@ const js = () => {
       )
     )
     .pipe(
-      gulpIf(isBuild,
+      gulpIf(
+        isBuild,
         babel({
           presets: [["@babel/preset-env"]],
         })
@@ -101,14 +102,16 @@ const js = () => {
     )
     .pipe(gulpIf(isBuild, gulp.dest(path.build.js)))
     .pipe(
-      gulpIf(isBuild,
+      gulpIf(
+        isBuild,
         babel({
           presets: [["minify"], ["@babel/preset-env"]],
         })
       )
     )
     .pipe(
-      gulpIf(isBuild,
+      gulpIf(
+        isBuild,
         rename({
           extname: ".min.js",
         })
@@ -158,7 +161,8 @@ const css = () => {
     .pipe(gulpIf(isBuild, gulp.dest(path.build.css)))
     .pipe(gulpIf(isBuild, postcss(plugins)))
     .pipe(
-      gulpIf(isBuild,
+      gulpIf(
+        isBuild,
         rename({
           extname: ".min.css",
         })
@@ -222,6 +226,37 @@ const sprite = () => {
     )
     .pipe(
       svgSprite({
+        shape: {
+          transform: [
+            {
+              svgo: {
+                plugins: [
+                  {
+                    name: "preset-default",
+                    params: {
+                      overrides: {
+                        removeViewBox: false,
+                        convertColors: {
+                          shorthex: false,
+                        },
+                        removeUselessStrokeAndFill: {
+                          stroke: false,
+                          fill: false,
+                        },
+                      },
+                    },
+                  },
+                  // {
+                  //   name: "removeAttrs",
+                  //   params: {
+                  //     attrs: "(width|height|style|color)",
+                  //   },
+                  // },
+                ],
+              },
+            },
+          ],
+        },
         mode: {
           stack: {
             sprite: "../sprite.svg",
